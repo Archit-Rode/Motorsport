@@ -1,0 +1,346 @@
+body {
+    height: 100%;
+    /* border: 10px solid #0074D9; */
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+p,
+ol,
+ul {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ol,
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+/* Styling */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    background-color: rgb(200, 0, 10);
+    padding: 2px 40px;
+    /*position:relative;*/
+}
+
+#logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#logo img {
+    vertical-align: top;
+    height: 120px;
+    width: 200px;
+}
+
+#menu {
+    left: 0px;
+    float: right;
+    width: 80%;
+    /* Adjust width if necessary */
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu ul {
+    position: relative;
+    /*changed*/
+    margin: 0px;
+    padding: 1px;
+    background: Black;
+    display: inline-block;
+}
+
+#menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a,
+#menu li span {
+    display: inline-block;
+    padding: 0 2.6em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 75px;
+    color: gold;
+}
+
+#menu ul li:hover>a {
+    background: #FFF;
+    color: rgb(220, 100, 0);
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+
+#menu ul li a {
+    display: inline-block;
+    padding: 0 2.6em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 75px;
+    color: gold;
+    white-space: nowrap;
+}
+
+#menu li:hover a,
+#menu li span {
+    background: #FFF;
+    color: rgb(220, 100, 0);
+    /*#0074D9*/
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 90%;
+}
+
+#img-moto {
+    text-align: center;
+    padding: 2px;
+}
+
+#img-nas {
+    text-align: center;
+    padding: 2px;
+}
+
+#daytona {
+    text-align: center;
+}
+
+#malaysia {
+    text-align: center;
+}
+
+#image-f1 img,
+#image-fia img {
+    max-height: 90px;
+    width: auto;
+}
+
+#image-f1 {
+    flex: 1;
+    text-align: left;
+}
+
+#image-fia {
+    flex: 1;
+    text-align: right;
+}
+
+#vegas {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+#vegas img {
+    height: 550px;
+    width: 1000px;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #0e190f;
+    color: white;
+    border: 4px solid #9e0808;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+#feedback {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    /* Adjust as needed */
+}
+
+#feedback h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#feedback input,
+#feedback textarea {
+    width: calc(100% - 20px);
+    /* Full width with padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#feedback textarea {
+    height: 100px;
+    /* Height for the message area */
+}
+
+.company-details {
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.company-details #col1,
+.company-details #col2,
+.company-details #col3 {
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+}
+
+#contact #icon {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.social {
+    overflow: hidden;
+    padding: 3em 0em;
+    /* border-top: 20px solid red; */
+    text-align: center;
+    background: rgb(200, 0, 10);
+}
+
+ul.social {
+    margin: 0;
+    padding: 0em 0.10em;
+    list-style: none;
+}
+
+ul.social li {
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.social li a {
+    color: #FFF;
+    display: inline-block;
+    background: #4C93B9;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 30px;
+    /*transition: background 0.3s ease-in-out;*/
+}
+
+ul.social li a:hover {
+    background: #2c6e91;
+    color: black;
+}
+
+/* New for dark mode */
+/* New part */
+
+/* Default Light Mode Styles */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    /* Default text color */
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+
+#feedback {
+    background-color: #f9f9f9;
+    /* Light background */
+    color: #333;
+    /* Dark text */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #121212;
+    /* Dark background */
+    /* color: white; */
+    /* Light text */
+}
+
+#feedback.dark-mode {
+    background-color: #1e1e1e;
+    /* Dark background for feedback */
+    color: white;
+    /* Light text for feedback */
+}
+
+#feedback input,
+#feedback textarea {
+    background-color: #333;
+    /* Dark background for inputs */
+    color: white;
+    /* Light text for inputs */
+    border: 1px solid #444;
+    /* Dark border for inputs */
+}
+
+#feedback input::placeholder,
+#feedback textarea::placeholder {
+    color: #aaa;
+    /* Placeholder color */
+}

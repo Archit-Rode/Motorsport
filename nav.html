@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Motorsport</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="icon" type="image/png" href="https://img.freepik.com/premium-vector/motorsport-logo-design-template-vector-logo-designs_605910-725.jpg?w=826">
+</head>
+</head>
+<!--Header menu -->
+
+<body>
+	<header class="container">
+		<div id="top-header">
+			<div id="logo">
+				<img src="https://img.freepik.com/premium-vector/motorsport-logo-design-template-vector-logo-designs_605910-725.jpg?w=826"
+					height="300">
+				<br><br>
+			</div>
+			<!-- Nav Menu -->
+			<nav>
+				<div id="menu">
+					<ul>
+						<li class="active"><a href="nav.html">Home</a></li>
+						<li><a href="#welcome">About Us</a></li>
+						<li><a href="#section2">Categories</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+						<li><a href="#news-section">News</a></li>
+					</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="header-image-menu">
+		<img src="https://miro.medium.com/v2/resize:fit:2000/1*VUWTFHTBVIHYRwder8XmPw.jpeg" height="700" width="1230">
+	</div>
+	<main>
+		<section>
+			<div id="welcome">
+				<h1 class="title">Welcome to our website🏎️</h1>
+				<p id="change">This is a website for <strong>Motorsport</strong> lovers
+					which includes different race series like <b>Formula 1,MotoGP,
+						NASCAR and more.</b>The information and data related to different
+					forms of motorsport is gathered by racing enthusiasts who want to contribute
+					to the world of racing. For more information regarding each of the categories click on the
+					respective category you wish to get more information about.
+				</p>
+			</div>
+		</section>
+	</main>
+	<main>
+		<section class="c-container" id="section2">
+			<div class="row">
+				<div id="column1">
+					<div class="column-title">
+						<h2>Formula 1</h2>
+						<!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/F1_%28registered_trademark%29.svg/375px-F1_%28registered_trademark%29.svg.png">-->
+					</div>
+					<p>
+						Formula 1 is the pinnacle of motorsport with the first championship being held
+						in 1950 and since then has been globally celebrated with 20 of the best drivers
+						in the world.It is the highest class of international racing for open-wheel
+						single-seater sanctioned by the Fédération Internationale de l'Automobile (FIA).
+					</p>
+					<a href="f1.html" target="_blank" class="button">More info</a>
+				</div>
+				<div id="column2">
+					<div class="column-title">
+						<h2>MotoGP</h2>
+						<div id="f1logo">
+							<!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moto_Gp_logo.svg/390px-Moto_Gp_logo.svg.png" height="200" width="350">-->
+						</div>
+					</div>
+					<p>
+						MotoGP is the highest level of motorbike racing in the world with the bravest of bikers go wheel
+						to wheel
+						fighting for the world championship organised by the Fédération Internationale de Motocyclisme
+						(FIM).
+						The series of MotoGP was started in 2002.
+						<br><br>
+					</p>
+					<a href="motogp.html" target="_blank" class="button">More Info</a>
+				</div>
+				<div id="column3">
+					<div class="column-title">
+						<h2>NASCAR</h2>
+						<!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/NASCAR_logo_2017.svg/413px-NASCAR_logo_2017.svg.png" height="140" width="350">-->
+					</div>
+					<p>
+						The National Association for Stock Car Auto Racing, LLC (NASCAR) is an American auto
+						racing sanctioning and operating company that is best known for stock car racing.
+						It is considered to be one of the top ranked motorsports organizations in the world and
+						is one of the largest spectator sports in America.
+					</p>
+					<a href="nascar.html" target="_blank" class="button">More Info</a>
+				</div>
+			</div>
+		</section>
+		<section id="news-section">
+			<h2>Latest Motorsport News</h2>
+			<div id="news-container"></div>
+		</section>
+	</main>
+	<section id="feedback">
+		<h2>Feedback Form</h2><br>
+		<form id="feedback-form" action="mailto:cars4u.blr@gmail.com" method="post">
+			<input type="text" name="Name" id="username" placeholder="Your Name" required><br>
+			<input type="email" name="Email" id="email" placeholder="Your Email" required><br>
+			<div id="check">
+				Favourite category:
+				<label><input type="checkbox" name="Favourite" value="f1" />
+					Formula1
+				</label><br>
+				<label>
+					<input type="checkbox" name="Favourite" value="nascar" />Nascar
+				</label><br>
+				<label>
+					<input type="checkbox" name="Favourite" value="motogp" />MotoGP<br>
+				</label><br>
+				<label>
+					<input type="checkbox" name="Favourite" value="other" />Others
+				</label><br>
+			</div>
+			<textarea id="message" placeholder="Your Message" required></textarea>
+			<button type="submit" value="submit" class="button">Submit</button>
+		</form>
+	</section>
+	<!--<h1 class="cate">🏎️World Of Motorsport🏎️</h1>-->
+	<footer id="contact">
+		<div class="company-details">
+			<div class="row">
+				<div id="col1">
+					<span id="icon" class="fa fa-map-marker"></span>
+					<span>
+						A-247,UB City,
+						<br />Vittal Mallya Road, Bangalore
+					</span>
+				</div>
+				<div id="col2">
+					<span id="icon" class="fa fa-phone"></span>
+					<span>
+						Telephone: +91-8345766383
+					</span>
+				</div>
+				<div id="col3">
+					<span id="icon" class="fa fa-envelope"></span>
+					<span>
+						cars4u.blr@gmail.com
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="social">
+			<ul class="social">
+				<li>
+					<a href="https://www.instagram.com/cars4u_blr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+						class="fab fa-instagram">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
