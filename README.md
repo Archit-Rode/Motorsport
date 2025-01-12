@@ -9,3 +9,5 @@ Live updates are gathered from NewsAPI's API Key.
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/e2b5bb47-003b-4bb2-8ac8-7b2ab9379747" /><br>
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/147e5c46-dd1c-4e53-8801-569e64be303e" /><br>
 
+## Recording
+https://drive.google.com/drive/folders/1BjMmdKq6MB-YubfxmCDUUk3OF-Dtg2bN?usp=drive_link
